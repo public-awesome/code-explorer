@@ -17,6 +17,9 @@
     "lint-fix": "eslint -c .eslintrc.js 'src/**/*.ts{,x}' --fix",
     "deploy": "PUBLIC_URL=https://cosmwasm.github.io/code-explorer/ REACT_APP_BACKEND=cliffnet yarn build && gh-pages -d build"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "eslintConfig": {
     "env": {
       "browser": true,
