@@ -15,7 +15,7 @@ export interface BackendSettings {
 // https://github.com/cosmos/cosmjs/tree/main/scripts/wasmd
 const devnetSettings: BackendSettings = {
   nodeUrls: ["https://rpc.stargaze-apis.com"],
-  denominations: ["ustar"],
+  denominations: ["ustars"],
   addressPrefix: "stars",
   gasPrice: GasPrice.fromString("0.25ustars"),
 };
