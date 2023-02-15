@@ -3,7 +3,7 @@
 ## Use hosted
 
 The explorer is deployed at https://cosmwasm.github.io/code-explorer and is configured
-for Cliffnet.
+for Stargaze mainnet.
 
 ## Use local
 
